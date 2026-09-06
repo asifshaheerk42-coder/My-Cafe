@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
         
@@ -12,7 +12,7 @@
             background-position: 100%;
             background-repeat: no-repeat;
             background-size: cover;
-          margin: 0;
+            margin: 0;
         }
     
         h1 {
@@ -29,123 +29,180 @@
             font-size: 30px;
             color: red;
             gap: 80px;
-         
         }
-        a{
+
+        a {
             text-decoration: none;
             color: burlywood;
         }
-        #box{
+
+        #box {
             width: 50%;
             height: 30%;
             background-color: grey;
             opacity: 0.5;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-margin-left: 350px;
-font-size: 20px;
-color:black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 350px;
+            font-size: 20px;
+            color: black;
         }
  
-   header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-   }
-       p{
-        color: rgb(227, 202, 5);
-     
-        font-weight: bold;
-        font-size: 20px;
-       }
-       #h1{
-        font-size: 20px;
-       }
-       footer{
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-       }
-       button {
-    width: 90px;
-    height: 40px;
-    border: none;
-    border-radius: 10px;
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
 
-}
-#card-p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
- button a{
-    color:red;
-    font-size: 20px;
-}
-button{
-    transition: 2s ease;
-    
-    
-}
-button:hover{
- background-color: bisque;
-    box-shadow: 2px 2px 2px 1px rgb(97, 49, 49);
-    transform: translateY(-15px);
-    
-}
-hr {
-    border: none;              
-    border-top: 2px solid rgb(230, 203, 203);
-}
+        p {
+            color: rgb(227, 202, 5);
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        #h1 {
+            font-size: 20px;
+        }
+
+        footer {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        button {
+            width: 90px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+        }
+
+        #card-p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button a {
+            color: red;
+            font-size: 20px;
+        }
+
+        button {
+            transition: 2s ease;
+        }
+
+        button:hover {
+            background-color: bisque;
+            box-shadow: 2px 2px 2px 1px rgb(97, 49, 49);
+            transform: translateY(-15px);
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid rgb(230, 203, 203);
+        }
+
+
+        /* MEDIA QUERY */
+
+        @media (max-width: 600px) {
+
+            h1 {
+                font-size: 45px;
+            }
+
+            nav {
+                font-size: 18px;
+                gap: 20px;
+            }
+
+            #box {
+                width: 90%;
+                margin-left: 5%;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            footer {
+                height: auto;
+            }
+
+        }
+
     </style>
 </head>
 
 <body>
+
     <h1>My Cafe</h1>
+
     <nav>
-      
-            <a href="home">Home</a>
-            <a href="about.html">About</a>
-            <a href="menu.html">Menu</a>
-            <a href="contact.html">Contact</a>
-     
+        <a href="home">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
     </nav>
+
     <div id="box">
+
         <header>
-        <h1>
-            Welcome to My Cafe
 
-            
-        </h1>
-        <h2>Fresh Coffee & Delicious Food</h2>
-       <button><a href="menu.html">Menu</a></button>
-    </header>
+            <h1>
+                Welcome to My Cafe
+            </h1>
+
+            <h2>Fresh Coffee & Delicious Food</h2>
+
+            <button>
+                <a href="menu.html">Menu</a>
+            </button>
+
+        </header>
+
     </div>
+
     <main>
-    <section>
-        <hr>
-<p id="card-p">A café is a cozy place where people can enjoy coffee, tea, snacks, desserts, and light meals. <br>It is a popular place to relax,<br> meet friends, work, or spend time with family. Cafés are known for their comfortable atmosphere,<br> tasty food, and refreshing drinks. ☕🍰</p>
-    </section>
 
+        <section>
 
-   
-   <footer>
-    <h2>My Cafe</h2>
+            <hr>
 
-    <p>Fresh Coffee. Delicious Food. Happy Moments.</p>
-    <p>Visit us and enjoy your favorite coffee with delicious food.</p>
-    <p>© 2026 My Cafe. All Rights Reserved.</p>
-</footer>
-  
+            <p id="card-p">
+                A café is a cozy place where people can enjoy coffee, tea, snacks, desserts, and light meals.
+                <br>
+                It is a popular place to relax,
+                <br>
+                meet friends, work, or spend time with family. Cafés are known for their comfortable atmosphere,
+                <br>
+                tasty food, and refreshing drinks. ☕🍰
+            </p>
 
-</main>
+        </section>
+
+        <footer>
+
+            <h2>My Cafe</h2>
+
+            <p>Fresh Coffee. Delicious Food. Happy Moments.</p>
+
+            <p>Visit us and enjoy your favorite coffee with delicious food.</p>
+
+            <p>© 2026 My Cafe. All Rights Reserved.</p>
+
+        </footer>
+
+    </main>
+
 </body>
 
 </html>
